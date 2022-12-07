@@ -1,0 +1,25 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 30px 50px 30px 60px;
+    border: solid 1px grey;
+    padding: 20px;
+}
+
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(41, 90, 90);
+    background-color: lavender;
+    border:dashed 2px rgb(1, 124, 124);
+    padding: 10px 20px 30px 15px;
+}
+
+div{
+    font-family: monospace;
+    color: lightslategrey;
+    background-color: whitesmoke;
+    border:dashed 2px rgb(72, 135, 187);
+    padding: 20px 30px;
+    margin: 10px;
+    height: 100px;
+    width: 500px;
+}

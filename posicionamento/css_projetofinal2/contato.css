@@ -1,0 +1,39 @@
+body{
+    margin: 0px;
+}
+
+.linha{
+    background-color: #004042;
+    padding: 5px;
+}
+
+.cabecalho{
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+.imagem{
+    width: 100px;
+    padding-top: 2px;
+}
+
+.navbar{
+    position: absolute;
+    right: 100px;
+    top: 2px;
+    width: 600px;
+    text-align: right;
+    padding-top: 40px;
+}
+
+.texto{
+    background-color: #E2E9E2;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 20px;
+    padding-bottom: 200px;
+}
+
+.rodape{
+    text-align: center;
+}

@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <title>Aula08-Atividade</title>
+</head>
+<body>
+    <h1>Uso de variadas <em>tags</em> do HTML</h1>
+    <p>Nesta página, veremos o uso das seguintes tags do HTML:</p>
+    <ul>
+        <li><a href="#table">table</a></li>
+        <li><a href="#del">del</a></li>
+        <li><a href="#del">ins</a></li>
+        <li><a href="#sub">sub</a></li>
+        <li><a href="#sup">sup</a></li>
+        <li><a href="#blockquote">blockquote</a></li>
+        <li><a href="#q">q</a></li>
+        <li><a href="#abbr">abbr</a></li>
+        <li><a href="#address">address</a></li>
+        <li><a href="#cite">cite</a></li>
+        <li><a href="#bdo">bdo</a></li>
+        <li><a href="#code">code</a></li>
+        <li><a href="#pre">pre</a></li>
+        <li><a href="#kbd">kbd</a></li>
+    </ul>
+    <hr>
+    <h2 id="table">&lt table &gt</h2>
+    <p>Permite criar tabelas em uma página HTML, estruturando os dados em linhas e colunas.</p>
+    <p>A tabela é criada a partir da tag <b>&lttable&gt</b> e, para finalizar, utiliza-se a tag <b>&lt/table&gt</b> ;</p>
+    <p>Para delimitar a área do cabeçalho da tabela, utiliza-se o elemento <b>&ltthead&gt</b> ;</p>
+    <p>Para delimitar o corpo/área principal da tabela, utiliza-se a tag <b>&lttbody&gt</b> ;</p>
+    <p>A tag <b>&lttr&gt</b> delimita as linhas da tabela;</p>
+    <p>A tag <b>&lttd&gt</b> insere os dados e separa nas colunas desejadas;</p>
+    <p>A tag <b>&ltth&gt</b> insere o cabeçalho na tabela, dando destaque e identificando cada coluna específica;</p>
+    <p>Para adicionar uma legenda ou título à tabela, usa-se a tag <b>&ltcaption&gt</b>;</p>
+    <p>E o elemento <b>&lttfoot&gt</b> delimita o rodapé da tabela;</p>
+    <p>Para a mesclagem de colunas, usa-se o atributo <b>colspan</b>, e, para linhas, <b>rowspan</b>;</p>
+    <p>O atributo <b>border</b> insere a borda para identificar a separação das linhas e colunas.</p>
+    <h3>Exemplo:</h3>
+    <table border="1">
+        <caption>Título (ou legenda) da tabela</caption>
+        <thead>
+            <tr>
+                <th>Título do cabeçalho</th>
+            </tr>
+            <tr>
+                <th>Segunda linha de título</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Título da primeira linha do corpo</th>
+            </tr>
+            <tr>
+                <td>Segunda linha com apenas uma coluna</td>
+            </tr>
+            <tr>
+                <th>Título linha 3 coluna 1</th>
+                <th>Título linha 3 coluna 2</th>
+            </tr>
+            <tr>
+                <td>Dados linha 4 coluna 1</td>
+                <td>Dados Linha 4 coluna 2</td>
+            </tr>
+            <tr>
+                <td>Dados linha 5 coluna 1</td>
+                <td>Dados linha 6 coluna 2</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Linha 1 do rodapé</th>
+            </tr>
+            <tr>
+                <td>Rodapé linha 2 coluna 1</td>
+                <td>Rodapé linha 2 coluna 2</td>
+            </tr>
+        </tfoot>
+    </table>
+    <h3>Sintaxe:</h3>
+    <figure><img src="img/tabela01.png" width="30%"></figure>
+    <figure><img src="img/tabela02.png" width="30%"></figure>
+    <hr>
+    <h2 id="del">&ltdel&gt e &ltins&gt</h2>
+    <p>&ltdel&gt Define o texto que foi excluído de um documento. Os navegadores geralmente riscam uma linha através do texto excluído.</p>
+    <p>&ltins&gt Define um texto que foi inserido em um documento. Os navegadores geralmente sublinham o texto inserido.</p>
+    <h3>Exemplo:</h3>
+    <p>Minha cor favorita é <del>vermelho</del> <ins>azul</ins>.</p>
+    <h3>Sintaxe:</h3>
+    <figure><img src="img/del.png" width="40%"></figure>
+    <hr>
+    <h2 id="sub">&ltsub&gt</h2>
+    <p>Define o texto subscrito. O texto subscrito aparece meio caractere abaixo da linha normal e às vezes é renderizado em uma fonte menor. O texto subscrito pode ser usado para fórmulas químicas.</p>
+    <h3>Exemplos:</h3>
+    <p>H<sub>2</sub>O</p>
+    <p>Texto <sub>subscrito</sub></p>
+    <h3>Sintaxe:</h3>
+    <figure><img src="img/sub.png" width="20%"></figure>
+    <hr>
+    <h2 id="sup">&ltsup&gt</h2>
+    <p>Define o texto sobrescrito. O texto sobrescrito aparece meio caractere acima da linha normal e, às vezes, é renderizado em uma fonte menor.</p>
+    <h3>Exemplo:</h3>
+    <p>Texto <sup>sobrescrito</sup></p>
+    <p>x<sup>2</sup></p>
+    <h3>Sintaxe:</h3>
+    <figure><img src="img/sup.png" width="22%"></figure>
+    <hr>
+    <h2 id="blockquote">&ltblockquote&gt</h2>
+    <p>Especifica uma seção que é citada de outra fonte.</p>
+    <h3>Exemplo:</h3>
+    <blockquote cite="http://www.worldwildlife.org/who/index.html">
+        For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.
+    </blockquote>
+    <h3>Sintaxe:</h3>
+    <figure><img src="img/blockquote.png" width="70%"></figure>
+    <hr>
+    <h2 id="q">&ltq&gt</h2>
+    <p>Assim como o blockquote, define uma citação, porém desta vez uma citação curta. </p>
+    <h3>Exemplo:</h3>
+    <p>O objetivo deles é:
+        <q>Construir um futuro onde as pessoas vivam em harmonia com a natureza.</q>
+        Esperamos que eles tenham sucesso.
+    </p>
+    <h3>Sintaxe:</h3>
+    <figure><img src="img/q.png" width="45%"></figure>
+    <hr>
+    <h2 id="abbr">&ltabbr&gt</h2>
+    <p>Define uma abreviação ou um acrônimo, como "HTML", "CSS", "Mr.", "Dr.", "ASAP", "ATM".</p>
+    <h3>Exemplo:</h3>
+    <p>A <abbr title="Organização Mundial da Saúde">OMS</abbr> foi fundada em 1948.</p>
+    <h3>Sintaxe:</h3>
+    <figure><img src="img/abbr.png" width="50%"></figure>
+    <hr>
+    <h2 id="address">&ltaddress&gt</h2>
+    <p>Define as informações de contato do autor/proprietário de um documento ou artigo. As informações de contato podem ser um endereço de e-mail, URL, endereço físico, número de telefone, identificador de mídia social, etc.</p>
+    <h3>Exemplo:</h3>
+    <address>
+        Escrito por <a href="mailto:webmaster@example.com">Jon Doe</a>.<br>
+        Nos visite em:<br>
+        Exemplo.com<br>
+        Box 564, Disneyland<br>
+        USA
+    </address>
+    <h3>Sintaxe:</h3>
+    <figure><img src="img/address.png" width="40%"></figure>
+    <hr>
+    <h2 id="cite">&ltcite&gt</h2>
+    <p>Define o título de um trabalho criativo (por exemplo, um livro, um poema, uma música, um filme, uma pintura, uma escultura, etc.).</p>
+    <h3>Exemplo:</h3>
+    <p><cite>O Grito</cite> de Edward Munch. Pintado em 1893.</p>
+    <h3>Sintaxe:</h3>
+    <figure><img src="img/cite.png" width="35%"></figure>
+    <hr>
+    <h2 id="bdo">&ltbdo&gt</h2>
+    <p>É usada para substituir a direção do texto atual.</p>
+    <h3>Exemplo:</h3>
+    <p><bdo dir="rtl">
+        Esse texto vai da direita para esquerda.
+    </bdo></p>
+    <p><bdo dir="ltr">
+        Esse texto vai da esquerda para direita.
+    </bdo>
+    <h3>Sintaxe:</h3>
+    <figure><img src="img/bdo.png" width="30%"></figure>
+    <hr>
+    <h2 id="code">&ltcode&gt</h2>
+    <p>É usada para definir um pedaço de código de computador. O conteúdo interno é exibido na fonte monoespaçada padrão do navegador. Obs: Esta tag não está obsoleta. No entanto, é possível obter um efeito mais rico usando CSS.</p>
+    <h3>Exemplo:</h3>
+    <p>A tag <code>button</code> do HTML define um botão clicável.</p>
+    <p>A propriedade <code>background-color</code> do CSS define a cor de fundo de um elemento.</p>
+    <h3>Sintaxe:</h3>
+    <figure><img src="img/code.png" width="55%"></figure>
+    <hr>
+    <h2 id="pre">&ltpre&gt</h2>
+    <p>O texto em um &ltpre&gt elemento é exibido em uma fonte de largura fixa e o texto preserva espaços e quebras de linha. O texto será exibido exatamente como escrito no código-fonte HTML.</p>
+    <h3>Exemplo:</h3>
+    <pre>O texto em um &ltpre&gt elemento
+        é exibido em uma  fonte de largura fixa
+        e o texto
+        preserva      espaços e 
+        quebras de linha.
+    </pre>
+    <h3>Sintaxe:</h3>
+    <figure><img src="img/pre.png" width="25%"></figure>
+    <hr>
+    <h2 id="kbd">&ltkbd&gt</h2>
+    <p>É usada para definir a entrada do teclado. O conteúdo interno é exibido na fonte monoespaçada padrão do navegador. Obs.: Esta tag não está obsoleta. No entanto, é possível obter um efeito mais rico usando CSS.</p>
+    <h3>Exemplo:</h3>
+    <p>Pressione <kbd>Ctrl</kbd> + <kbd>C</kbd> para copiar texto (Windows).</p>
+    <p>Pressione <kbd>Cmd</kbd> + <kbd>C</kbd> para copiar texto (Mac OS).</p>
+    <h3>Sintaxe:</h3>
+    <figure><img src="img/kbd.png" width="45%"></figure>
+</body>
+</html>

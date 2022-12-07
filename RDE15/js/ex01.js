@@ -1,0 +1,1 @@
+prompt("Script JS Externo")

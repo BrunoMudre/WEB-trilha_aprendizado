@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <title>RDE05-Hyperlinks</title>
+</head>
+<body>
+    <h1><font color="red">Hyperlinks</font></h1>
+    <p>São uma referência dentro de um documento em hipertexto para outras partes do mesmo documento, outros documentos, arquivos ou endereço eletrônico. Para realizar a marcação de um hyperlink utilizamos a tag &lt a &gt, e, para fazer a referência ao conteúdo desejado, utiliza-se a propriedade <b>href</b>, como mostra a sintaxe geral abaixo:</p>
+    <figure>
+    <img src="img/sintaxegeral.png" width="30%">
+    </figure>
+
+    <p><b>Os links podem ser:</b></p>
+    <ul>
+        <li><a href="#remotos">Remotos</a></li>
+        <li><a href="#internos">Internos</a></li>
+        <li><a href="#locais">Locais</a></li>
+        <li><a href="#email">Endereço de correio ou arquivos</a></li>
+        <li><a href="#download">Arquvivos para download</a></li>
+    </ul>
+    <hr>
+    <h2 id="remotos">Remotos</h2>
+    <p>Links que direcionam a sites ou uma página qualquer da web, como referência utiliza-se o URL em href.</p>
+    <p>Ex: Link para a página da <i>Wikipedia</i>: 
+        <a href="https://www.wikipedia.org/" target="_blank">Clique aqui para acessar a <i>Wikipedia</i>.</a></p>
+    <h3>Sintaxe:</h3>
+    <figure>
+        <img src="img/SintaxeRemoto.png" widht="30%">
+    </figure>
+    <p>Pode-se ser usado a propriedade <b>target="_blank"</b> para o link ser aberto em outra guia.</p>
+    <hr>
+    <h2 id="internos">Internos</h2>
+    <p>Fazem o direcionanamento para outras seções ou parágrafos da mesma página.</p>
+    <h3>Sintaxes:</h3>
+    <figure>
+        <img src="img/SintaxeInterno1.png" width="30%">
+    </figure>
+    <figure>
+        <img src="img/SintaxeInterno2.png" width="30%">
+    </figure>
+    <p>Ex: Lista dos tipos de links acima.</p>
+    <hr>
+    <h2 id="locais">Locais</h2>
+    <p>Apontam para outras páginas dentro de um mesmo site.</p>
+    <h3>Sintaxe:</h3>
+    <figure>
+        <img src="img/SintaxeLocal.png" width="30%">
+    </figure>
+    <hr>
+    <h2 id="email">Endereço de correio eletrônico/email</h2>
+    <p>São links que destinam a um email/endereço eletrônico.</p>
+    <p>Ex: <a href="mailto:aleatorio@gmail.com">pessoaaleatoria@gmail.com</a></p>
+    <h3>Sintaxe:</h3>
+    <figure>
+        <img src="img/SintaxeEmail.png" width="30%">
+    </figure>
+    <hr>
+    <h2>Imagens com hyperlinks</h2>
+    <p>Faz com que uma imagem também possua a função de hyperlink, misturando a tag de hyperlink com a tag de imagem.</p>
+    <p>Ex: Clique sobre a imagem de sintaxe.</p>
+    <h3>Sintaxe:</h3>
+    <figure>
+        <a href="img/SintaxeImagemAmpliada.png"><img src="img/SintaxeImagem.png" width="30%"></a>
+    </figure>
+    <hr>
+    <h2 id="download">Arquivos para download</h2>
+    <p>Link que faz o download de um arquivo.</p>
+    <h3>Sintaxe:</h3>
+    <figure>
+        <img src="img/SintaxeDownload.png" width="60%">
+    </figure>
+    <hr>
+
+</body>
+</html>

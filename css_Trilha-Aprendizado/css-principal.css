@@ -1,0 +1,102 @@
+body{
+    margin: 0 auto;
+    background-color: #F2F2F2;
+}
+
+
+.titulo{
+    color: #1374F2;
+    margin-top: 5%;
+    text-align: center;
+    font-family: Palatino, Palatino Linotype, Palatino LT STD, Book Antiqua, Georgia, serif;
+    font-size: 250%;
+    width: 40%;
+    position: relative;
+    left: 30%;
+    border-bottom: solid 4px #F2B544 ;
+    padding-bottom: 1%;
+}
+
+.subtitulo{
+    color: black;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    font-size: 140%;
+    padding: 1%;
+    border: dashed #F26D3D;
+}
+
+.main{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.aulas{
+    font-size: 112%;
+    color: black;
+    background-color: rgb(224, 221, 221);
+    border-radius: 15px;
+    padding: 1%;
+    margin-top: 2%;
+}
+
+.aulas:hover{
+    background-color: rgb(209, 209, 209); 
+    box-shadow: 0 0 15px 7px rgba(168, 168, 168, 0.618);
+}
+
+h2{
+    color: #1374F2;
+}
+
+a:hover{
+    color: white;
+}
+
+a{
+    color: #c08a27;
+}
+
+.contato{
+    font-size: 112%;
+    color: black;
+    padding: 1%;
+    margin-top: 2%;
+}
+
+.contato h1{
+    color: #F2B544;
+}
+
+footer{
+    background-color: #F26D3D;
+    padding: 1% 20% 1% 20%;
+    text-align: center;
+    margin-top: 3%;
+}
+
+.rodape{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+}
+
+.bloco1{
+    border-right: solid 1px white;
+    padding-right: 20%;
+}
+
+
+.bloco2{
+    border-left: solid 1px rgb(148, 168, 189);
+    padding-left: 20%;
+}
+
+footer a{
+    color: white;
+}

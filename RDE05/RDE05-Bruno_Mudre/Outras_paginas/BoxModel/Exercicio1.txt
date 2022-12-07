@@ -1,0 +1,24 @@
+Neste documento HTML faça: 
+        Utilizando o lorem crie:
+        * 5 títulos em níveis
+        * para cada título crie um parágrafo
+        * crie 3 divs
+        Estilize o conteúdo alterando:
+        *body
+            -fonte
+            -margem 30 50 30 60
+            -borda solida de 1 pixel cinza
+            -padding 20 pixels de todos os lados
+        * paragrafo e altere
+            -fonte
+            -cor da fonte
+            -background
+            -borda tracejada de 2 pixel cor a escolher
+            -padding 10 20 30 15
+
+            *div e altere
+            -fonte
+            -cor da fonte
+            -background
+            -borda tracejada de 2 pixel cor a escolher
+            -padding 20 30*
